@@ -1,3 +1,5 @@
+
+
 export const CapitalView = ({ result }: any) => {
     const { deposit, stampDuty, solicitorFees, mortgageFees, total } = result.capital
     const formatter = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' })

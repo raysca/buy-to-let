@@ -1,7 +1,7 @@
 import React from 'react';
-import { CurrencyInput, NumberInput, PercentageInput } from './input/view';
+import { CurrencyInput, NumberInput, PercentageInput } from './input';
 import { BuyToLetInput, buyToLetCalculator } from './calculator';
-import { BuyToLetResultView } from './result/view';
+import { BuyToLetResultView } from './result';
 import { BUY_TO_LET_INPUT } from './properties';
 
 const CapitalView = ({ inputState, onChange, onInterestChange, interestOnly, isLoss }: any) => {

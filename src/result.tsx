@@ -1,5 +1,5 @@
 import React from "react";
-import { BuyToLetInput, BuyToLetResult } from "../calculator";
+import { BuyToLetInput, BuyToLetResult } from "./calculator";
 
 const currencyFormatter = new Intl.NumberFormat('en-GB', {
     style: 'currency',
